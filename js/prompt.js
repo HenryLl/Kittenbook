@@ -6,16 +6,16 @@ switch (userName) {
   case "ed":
   case "edd":
   case "Edd":
-  greeting = "Egggg, roll another"
+  greeting = "Egggg, roll another";
     break;
   case "Jack":
-  greeting = "Wagwan"
+  greeting = "Wagwan";
     break;
-};
+}
 // If no username was added, ask again.
 if (!userName) {
-  userName = prompt ("You didn\'t enter a name. Really, what\'s your name?")
-};
+  userName = prompt ("You didn\'t enter a name. Really, what\'s your name?");
+}
 // Create phone number pattern
 var phoneNumberPattern = /\+1-\d{3}-\d{3}-\d{4}/;
 var phoneMatches = null;
@@ -40,11 +40,11 @@ if (phoneNumberPattern.test(phoneNumber)) {
 }   else{
   // No, the phone number is not valid. Tell the user about the problem.
   output = output + "<h2>That phone number is invalid: " + phoneNumber;
-};
+}
 // Insert the output into the web page.
 for (var i = 0; i < images; i++) {
   console.log(images[i]);
-};
+}
 // document.body.innerHTML = output;
 // Insert HTML onto webpage.
 document.body.HTML = output;
